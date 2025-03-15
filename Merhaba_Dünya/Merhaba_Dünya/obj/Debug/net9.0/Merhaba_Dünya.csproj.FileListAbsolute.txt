@@ -1,0 +1,15 @@
+C:\Github\acunmedya\Merhaba_Dünya\Merhaba_Dünya\bin\Debug\net9.0\Merhaba_Dünya.exe
+C:\Github\acunmedya\Merhaba_Dünya\Merhaba_Dünya\bin\Debug\net9.0\Merhaba_Dünya.deps.json
+C:\Github\acunmedya\Merhaba_Dünya\Merhaba_Dünya\bin\Debug\net9.0\Merhaba_Dünya.runtimeconfig.json
+C:\Github\acunmedya\Merhaba_Dünya\Merhaba_Dünya\bin\Debug\net9.0\Merhaba_Dünya.dll
+C:\Github\acunmedya\Merhaba_Dünya\Merhaba_Dünya\bin\Debug\net9.0\Merhaba_Dünya.pdb
+C:\Github\acunmedya\Merhaba_Dünya\Merhaba_Dünya\obj\Debug\net9.0\Merhaba_Dünya.GeneratedMSBuildEditorConfig.editorconfig
+C:\Github\acunmedya\Merhaba_Dünya\Merhaba_Dünya\obj\Debug\net9.0\Merhaba_Dünya.AssemblyInfoInputs.cache
+C:\Github\acunmedya\Merhaba_Dünya\Merhaba_Dünya\obj\Debug\net9.0\Merhaba_Dünya.AssemblyInfo.cs
+C:\Github\acunmedya\Merhaba_Dünya\Merhaba_Dünya\obj\Debug\net9.0\Merhaba_Dünya.csproj.CoreCompileInputs.cache
+C:\Github\acunmedya\Merhaba_Dünya\Merhaba_Dünya\obj\Debug\net9.0\Merhaba_Dünya.sourcelink.json
+C:\Github\acunmedya\Merhaba_Dünya\Merhaba_Dünya\obj\Debug\net9.0\Merhaba_Dünya.dll
+C:\Github\acunmedya\Merhaba_Dünya\Merhaba_Dünya\obj\Debug\net9.0\refint\Merhaba_Dünya.dll
+C:\Github\acunmedya\Merhaba_Dünya\Merhaba_Dünya\obj\Debug\net9.0\Merhaba_Dünya.pdb
+C:\Github\acunmedya\Merhaba_Dünya\Merhaba_Dünya\obj\Debug\net9.0\Merhaba_Dünya.genruntimeconfig.cache
+C:\Github\acunmedya\Merhaba_Dünya\Merhaba_Dünya\obj\Debug\net9.0\ref\Merhaba_Dünya.dll
