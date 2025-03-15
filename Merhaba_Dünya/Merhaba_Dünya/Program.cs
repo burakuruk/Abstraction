@@ -1,2 +1,0 @@
-﻿
-Console.WriteLine("Merhaba, Dünya!");
