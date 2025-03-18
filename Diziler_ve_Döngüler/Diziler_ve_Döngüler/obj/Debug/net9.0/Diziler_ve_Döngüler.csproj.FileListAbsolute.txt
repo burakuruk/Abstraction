@@ -1,0 +1,15 @@
+C:\Github\acunmedya\Diziler_ve_Döngüler\Diziler_ve_Döngüler\bin\Debug\net9.0\Diziler_ve_Döngüler.exe
+C:\Github\acunmedya\Diziler_ve_Döngüler\Diziler_ve_Döngüler\bin\Debug\net9.0\Diziler_ve_Döngüler.deps.json
+C:\Github\acunmedya\Diziler_ve_Döngüler\Diziler_ve_Döngüler\bin\Debug\net9.0\Diziler_ve_Döngüler.runtimeconfig.json
+C:\Github\acunmedya\Diziler_ve_Döngüler\Diziler_ve_Döngüler\bin\Debug\net9.0\Diziler_ve_Döngüler.dll
+C:\Github\acunmedya\Diziler_ve_Döngüler\Diziler_ve_Döngüler\bin\Debug\net9.0\Diziler_ve_Döngüler.pdb
+C:\Github\acunmedya\Diziler_ve_Döngüler\Diziler_ve_Döngüler\obj\Debug\net9.0\Diziler_ve_Döngüler.GeneratedMSBuildEditorConfig.editorconfig
+C:\Github\acunmedya\Diziler_ve_Döngüler\Diziler_ve_Döngüler\obj\Debug\net9.0\Diziler_ve_Döngüler.AssemblyInfoInputs.cache
+C:\Github\acunmedya\Diziler_ve_Döngüler\Diziler_ve_Döngüler\obj\Debug\net9.0\Diziler_ve_Döngüler.AssemblyInfo.cs
+C:\Github\acunmedya\Diziler_ve_Döngüler\Diziler_ve_Döngüler\obj\Debug\net9.0\Diziler_ve_Döngüler.csproj.CoreCompileInputs.cache
+C:\Github\acunmedya\Diziler_ve_Döngüler\Diziler_ve_Döngüler\obj\Debug\net9.0\Diziler_ve_Döngüler.sourcelink.json
+C:\Github\acunmedya\Diziler_ve_Döngüler\Diziler_ve_Döngüler\obj\Debug\net9.0\Diziler_ve_Döngüler.dll
+C:\Github\acunmedya\Diziler_ve_Döngüler\Diziler_ve_Döngüler\obj\Debug\net9.0\refint\Diziler_ve_Döngüler.dll
+C:\Github\acunmedya\Diziler_ve_Döngüler\Diziler_ve_Döngüler\obj\Debug\net9.0\Diziler_ve_Döngüler.pdb
+C:\Github\acunmedya\Diziler_ve_Döngüler\Diziler_ve_Döngüler\obj\Debug\net9.0\Diziler_ve_Döngüler.genruntimeconfig.cache
+C:\Github\acunmedya\Diziler_ve_Döngüler\Diziler_ve_Döngüler\obj\Debug\net9.0\ref\Diziler_ve_Döngüler.dll

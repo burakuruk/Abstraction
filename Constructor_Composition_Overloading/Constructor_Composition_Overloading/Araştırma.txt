@@ -1,0 +1,106 @@
+﻿
+C#’ta Garbage Collector (GC) Nedir ve Nasıl Çalışır?
+
+Garbage Collector (GC), .NET’in bellek yönetimini otomatik olarak gerçekleştiren bir mekanizmadır. Kullanılmayan nesneleri temizleyerek belleği optimize eder ve manuel bellek yönetimi ihtiyacını ortadan kaldırır.
+
+Nasıl Çalışır?
+	1.	Bellekte Nesne Oluşturma: Yeni bir nesne oluşturulduğunda, Managed Heap (Yönetilen Yığın) adlı belleğe atanır.
+	2.	Nesnelerin Kullanımı: Kullanılan nesneler bellekte kalır.
+	3.	Kullanılmayan Nesnelerin Tespiti: Bir nesneye referans kalmazsa, GC tarafından temizlenmeye uygun hale gelir.
+	4.	Garbage Collection Aşamaları:
+	•	Generation 0: Yeni oluşturulan nesneler buraya yerleştirilir.
+	•	Generation 1: Generation 0’dan temizlenmeyen nesneler buraya taşınır.
+	•	Generation 2: Uzun ömürlü nesneler buraya taşınır.
+	5.	GC Temizleme İşlemi:
+	•	Mark (İşaretleme): Kullanılan nesneler belirlenir.
+	•	Sweep (Temizleme): Kullanılmayan nesneler silinir.
+	•	Compact (Sıkıştırma): Bellek birleştirilerek daha verimli hale getirilir.
+
+Bellek Yönetimindeki Rolü
+	•	Bellek Sızıntılarını Önler: Kullanılmayan nesneleri temizleyerek bellek yönetimini kolaylaştırır.
+	•	Performansı Artırır: Belleği optimize ederek gereksiz bellek kullanımını engeller.
+	•	Manuel Müdahaleye Gerek Bırakmaz: delete gibi işlemleri gereksiz hale getirir.
+
+GC, GC.Collect() komutu ile manuel olarak da çağrılabilir, ancak .NET genellikle bunu kendi yönetir.
+
+⸻
+
+
+Generic Class’lar ve Generic Method’lar (Boxing & Unboxing)
+
+Generic Yapıların Avantajları
+	1.	Tip Güvenliği: Derleme zamanında veri türü belirlenir, InvalidCastException hatası önlenir.
+	2.	Kod Tekrarını Azaltır: Farklı veri türleri için aynı kodu tekrar yazmaya gerek kalmaz.
+	3.	Performans Artışı: Boxing & Unboxing gibi maliyetli işlemleri azaltır.
+
+⸻
+
+Generic Sınıf ve Metot Kullanımı
+
+Generic yapılar, bir sınıf veya metodu farklı veri türleri ile kullanabilmeyi sağlar.
+
+Generic Sınıf Örneği
+
+class GenericSinif<T>
+{
+    private T veri;
+    
+    public GenericSinif(T veri)
+    {
+        this.veri = veri;
+    }
+
+    public void Yazdir()
+    {
+        Console.WriteLine($"Değer: {veri}");
+    }
+}
+
+class Program
+{
+    static void Main()
+    {
+        GenericSinif<int> sayi = new GenericSinif<int>(100);
+        sayi.Yazdir();
+
+        GenericSinif<string> metin = new GenericSinif<string>("Merhaba");
+        metin.Yazdir();
+    }
+}
+
+Generic Metot Örneği
+
+class Program
+{
+    static void Yazdir<T>(T veri)
+    {
+        Console.WriteLine($"Değer: {veri}");
+    }
+
+    static void Main()
+    {
+        Yazdir<int>(10);
+        Yazdir<string>("Generic Metot");
+    }
+}
+
+
+
+⸻
+
+Boxing & Unboxing ve Performansa Etkisi
+
+Boxing: Bir değer tipinin (int, double, bool vb.) object türüne dönüştürülmesidir.
+Unboxing: object türündeki veriyi tekrar değer tipine çevirmektir.
+
+Örnek:
+
+int x = 10;
+object obj = x;  // Boxing (int -> object)
+int y = (int)obj; // Unboxing (object -> int)
+
+Performans Etkisi:
+	•	Boxing & Unboxing işlem maliyetlidir. Yeni bir bellek tahsis edilmesine ve gereksiz işlem yüküne sebep olur.
+	•	Generic yapılar, Boxing & Unboxing işlemlerine ihtiyaç duymadan veri tiplerini koruyarak performansı artırır.
+
+Özetle, Generic yapılar sayesinde kod daha verimli ve esnek olurken Boxing & Unboxing’den kaçınarak performans kazanılır.
